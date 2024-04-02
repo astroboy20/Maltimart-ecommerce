@@ -113,6 +113,8 @@ position: relative;
     height: 100%;
     background: rgba(0, 0, 0, 0.53);
     z-index: 99999;
+    display: none;
+    align-items: center;
   }
   .menu{
      position: absolute;
@@ -131,6 +133,9 @@ position: relative;
   }
   .mobile__menu{
     display: block ;
+  }
+  .mobile__menu span i{
+    font-size: 1.1rem;
   }
   .logo img{
     width: 1rem;
